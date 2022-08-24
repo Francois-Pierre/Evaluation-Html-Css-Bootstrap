@@ -1,5 +1,17 @@
 /*8BBCD6*/
 .color_back {
-  background-color: #8BBCD6;
-  font-style: red;
+  min-height: 100vh;
+  background: linear-gradient(#8BBCD6, antiquewhite);
+}
+.table_background {
+  background-color: antiquewhite;
+}
+.img_wlcm {
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 800px){
+  .img_wlcm {display: none;
+  }
 }
