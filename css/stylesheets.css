@@ -1,5 +1,4 @@
-/*8BBCD6*/
-.color_back {
+.my_body {
   background: linear-gradient(#8BBCD6, antiquewhite);
   height: 100%;
   min-height: 100vh;
@@ -9,26 +8,37 @@
   background-color: antiquewhite;
 }
 .img_wlcm {
-  width: 200px;
+  margin: 25px;
   height: 200px;
+  width: 200px;
 }
 
-@media (max-width: 800px){
+/*@media (max-width: 800px){
   .img_wlcm {display: none;
   }
-}
+}*/
 .my_maintitle {
-  border: 3px solid greenyellow;
-  border-width: 3px;
   border-style: double;
-  border-color: greenyellow;
-  color: red;
+  text-decoration-color: red;
+  margin-bottom: 5px;
 }
 .my_footer{
   text-align: center;
-  background: violet;
+  background: #336987;
   position: absolute;
-  bottom: 0px;
   width: 100%;
-  padding-top: auto;
+  bottom: 0;
+}
+h1{
+  text-decoration: underline;
+}
+.my_header {
+  border: 3px solid greenyellow;
+}
+.my_nav {
+  
+}
+.nav_elm{
+  margin: 10px;
+  background: #8BBCD6;
 }
